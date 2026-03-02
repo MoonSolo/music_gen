@@ -1,0 +1,55 @@
+# Ambient Set 11 – Deep Space Drift (cosmic, slow evolving)
+ambient, deep space atmosphere, low evolving drone, distant reverb pulses | 90 | ambient_space_001
+ambient, deep space atmosphere, layered drone texture, subtle harmonic swell | 90 | ambient_space_002
+ambient, deep space atmosphere, soft sub bass movement, airy pad layer | 90 | ambient_space_003
+ambient, cosmic drift mood, distant metallic resonance, slow evolution | 90 | ambient_space_004
+ambient, cosmic drift mood, expanding synth pad, gentle tonal shift | 90 | ambient_space_005
+ambient, cosmic drift mood, low frequency pulse, subtle shimmer texture | 90 | ambient_space_006
+ambient, interstellar atmosphere, evolving harmonic layer, deep reverb field | 90 | ambient_space_007
+ambient, interstellar atmosphere, warm drone variation, spatial echoes | 90 | ambient_space_008
+ambient, interstellar atmosphere, soft high frequency sparkle, slow swell | 90 | ambient_space_009
+ambient, floating nebula texture, deep sustained pad, minimal motion | 90 | ambient_space_010
+ambient, floating nebula texture, harmonic expansion, immersive depth | 90 | ambient_space_011
+ambient, floating nebula texture, gentle resolution swell, seamless fade | 90 | ambient_space_012
+
+# Ambient Set 12 – Forest Mist (organic, calm, natural textures)
+ambient, forest atmosphere, soft wind in trees, distant birds, airy pad | 90 | ambient_forest_001
+ambient, forest atmosphere, evolving pad harmony, light rustling leaves | 90 | ambient_forest_002
+ambient, forest atmosphere, subtle water stream texture, deep calm drone | 90 | ambient_forest_003
+ambient, morning mist mood, soft tonal swell, natural ambience layer | 90 | ambient_forest_004
+ambient, morning mist mood, distant wooden chime resonance | 90 | ambient_forest_005
+ambient, morning mist mood, slow harmonic shift, immersive field texture | 90 | ambient_forest_006
+ambient, woodland drift, layered organic ambience, soft sub tone | 90 | ambient_forest_007
+ambient, woodland drift, evolving pad warmth, subtle spatial echo | 90 | ambient_forest_008
+ambient, woodland drift, gentle tonal bloom, calm atmosphere | 90 | ambient_forest_009
+ambient, deep forest stillness, low sustained harmony, light air movement | 90 | ambient_forest_010
+ambient, deep forest stillness, harmonic expansion, immersive softness | 90 | ambient_forest_011
+ambient, deep forest stillness, soft resolution swell, seamless transition | 90 | ambient_forest_012
+
+# Ambient Set 13 – Ocean Horizon (wide, airy, meditative)
+ambient, ocean horizon atmosphere, soft wave texture, warm evolving pad | 90 | ambient_ocean_001
+ambient, ocean horizon atmosphere, deeper harmonic layer, distant swell | 90 | ambient_ocean_002
+ambient, ocean horizon atmosphere, slow sub bass drift, airy overtones | 90 | ambient_ocean_003
+ambient, coastal mist mood, shimmering high pad, calm depth | 90 | ambient_ocean_004
+ambient, coastal mist mood, evolving harmonic wash, spatial echo | 90 | ambient_ocean_005
+ambient, coastal mist mood, gentle tonal rise, immersive calm | 90 | ambient_ocean_006
+ambient, open sea drift, wide stereo pad, subtle resonance | 90 | ambient_ocean_007
+ambient, open sea drift, slow harmonic progression, deep softness | 90 | ambient_ocean_008
+ambient, open sea drift, minimal tonal shift, meditative flow | 90 | ambient_ocean_009
+ambient, sunset over water texture, warm sustained chords | 90 | ambient_ocean_010
+ambient, sunset over water texture, harmonic bloom, gentle swell | 90 | ambient_ocean_011
+ambient, sunset over water texture, calm fade resolution, seamless ending | 90 | ambient_ocean_012
+
+# Ambient Set 14 – Night Temple (mystic, deep, atmospheric)
+ambient, night temple atmosphere, low drone, distant chant texture | 90 | ambient_temple_001
+ambient, night temple atmosphere, evolving bass resonance, soft reverb field | 90 | ambient_temple_002
+ambient, night temple atmosphere, subtle harmonic overtone, deep calm | 90 | ambient_temple_003
+ambient, sacred space mood, slow tonal expansion, immersive echo | 90 | ambient_temple_004
+ambient, sacred space mood, layered drone harmony, soft shimmer | 90 | ambient_temple_005
+ambient, sacred space mood, deep sustained pad, minimal movement | 90 | ambient_temple_006
+ambient, midnight ritual texture, low resonance pulse, airy overtones | 90 | ambient_temple_007
+ambient, midnight ritual texture, harmonic variation, spatial depth | 90 | ambient_temple_008
+ambient, midnight ritual texture, gentle tonal rise, calm intensity | 90 | ambient_temple_009
+ambient, inner sanctuary atmosphere, warm evolving drone | 90 | ambient_temple_010
+ambient, inner sanctuary atmosphere, subtle harmonic bloom | 90 | ambient_temple_011
+ambient, inner sanctuary atmosphere, soft resolution swell, seamless fade | 90 | ambient_temple_012

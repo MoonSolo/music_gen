@@ -1,0 +1,16 @@
+All customisable parameters at a glance
+Parameter		What it does
+--typeNoise 		type (white/pink/brown/blue/violet/rain/ocean/fan/womb/binaural)
+--variantsHow 		many previews to generate
+--previewPreview 	clip length in seconds
+--durationFinal 	output duration in seconds
+--volumeOutput 		volume 0.0–1.0
+--fade_in/outFade 	duration in seconds
+--monoForce 		mono instead of stereo
+--lowcut/highcutCustom 	frequency filters
+--rain_intensityRain 	droplet density
+--rain_rumble		Thunder/distant rumble amount
+--ocean_wave_speedWave 	cycle speed in Hz
+--fan_speed		Fan blade frequency
+--womb_depth		Low pulse intensity
+--freq_left/right	Binaural beat frequencies

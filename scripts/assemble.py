@@ -94,37 +94,23 @@ def assemble_video(audio_path, animation_path, out_path, resolution, fps, durati
 
     cmd = [
         "ffmpeg", "-y",
-
-        # Loop animation input
         "-stream_loop", "-1",
         "-i", str(animation_path),
-
-        # Audio input
         "-i", str(audio_path),
-
-        # Video filters: scale to resolution, pad if needed, set fps
+        "-t", str(duration),
         "-vf", (
             f"scale={width}:{height}:force_original_aspect_ratio=decrease,"
             f"pad={width}:{height}:(ow-iw)/2:(oh-ih)/2:black,"
             f"fps={fps}"
         ),
-
-        # Stop at audio duration
-        "-t", str(duration),
-
-        # Video codec
+        "-map", "0:v:0",
+        "-map", "1:a:0",
         "-c:v", "libx264",
-        "-preset", "slow",
-        "-crf", "18",
+        "-preset", "ultrafast", # veryslow → slower → slow → medium → fast → faster → veryfast → superfast → ultrafast
+        "-crf", "28",
         "-pix_fmt", "yuv420p",
-
-        # Audio codec
         "-c:a", "aac",
         "-b:a", "192k",
-
-        # Shortest stream wins (safety net)
-        "-shortest",
-
         str(out_path)
     ]
 
@@ -180,8 +166,8 @@ def main():
             print(f"  Run stitch.py first.")
             sys.exit(1)
 
-    out_path = video_dir / f"{args.video_name}_full.mp4"
-
+    out_path = audio_path.parent / f"{args.video_name}_full.mp4"
+    
     # ── Print summary ──
     print(f"\n{'='*55}")
     print(f"  Video Assembly")
