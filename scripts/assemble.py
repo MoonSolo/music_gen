@@ -102,7 +102,9 @@ def assemble_video(audio_path, animation_path, out_path, resolution, fps, durati
             f"scale={width}:{height}:force_original_aspect_ratio=decrease,"
             f"pad={width}:{height}:(ow-iw)/2:(oh-ih)/2:black,"
             f"fps={fps}"
+            f"fade=t=in:st=0:d=3"
         ),
+        "-af", "afade=t=in:st=0:d=3",
         "-map", "0:v:0",
         "-map", "1:a:0",
         "-c:v", "libx264",
@@ -167,7 +169,7 @@ def main():
             sys.exit(1)
 
     out_path = audio_path.parent / f"{args.video_name}_full.mp4"
-    
+
     # ── Print summary ──
     print(f"\n{'='*55}")
     print(f"  Video Assembly")

@@ -628,3 +628,14 @@ python3 scripts/run.py --model large --prompts prompts.txt --video\_name NAME
 python3 scripts/run.py --model medium --device cpu --prompts prompts.txt --video\_name NAME
 
 ```
+
+tags :
+
+lofi hip hop, lofi beats, chill beats, study music, lofi radio,
+tokyo lofi, lofi japan, rainy lofi, night lofi, dark lofi,
+3am lofi, insomnia lofi, lofi study, focus music, deep focus,
+lofi playlist, lofi mix, beats to study to, beats to relax to,
+rooftop lofi, sunset lofi, golden hour lofi, lofi chill,
+background music, instrumental hip hop, late night lofi,
+aesthetic lofi, sad lofi, moody lofi, lofi vibes,
+ambient lofi, cozy lofi, relaxing music, lofi 2025

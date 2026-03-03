@@ -1,59 +1,55 @@
-# Lofi Set 11 – 90s Boom Bap Chill (dusty, head-nod, raw swing)
+# Lofi Set 1 – Morning Coffee Focus (warm start, gentle energy)
+lofi jazz, morning coffee atmosphere, warm upright bass, soft brushed drums, gentle piano, 84 BPM | 77 | lofi_morning_001
+lofi jazz, morning coffee atmosphere, mellow chord voicing, light ride cymbal, 84 BPM | 77 | lofi_morning_002
+lofi jazz, early morning light, airy piano improvisation, steady bass walk, 85 BPM | 77 | lofi_morning_003
+lofi jazz, early morning light, soft horn phrase, warm vinyl texture, 84 BPM | 77 | lofi_morning_004
+lofi jazz, first cup of coffee mood, Rhodes piano loop, brushed snare, 83 BPM | 77 | lofi_morning_005
+lofi jazz, first cup of coffee mood, upright bass groove, subtle chord stab, 84 BPM | 77 | lofi_morning_006
+lofi jazz, slow morning settle, gentle piano resolution, minimal percussion, 83 BPM | 77 | lofi_morning_007
+lofi jazz, slow morning settle, warm harmonic drift, soft kick pattern, 84 BPM | 77 | lofi_morning_008
+lofi jazz, morning focus build, layered piano voicing, steady groove, 85 BPM | 77 | lofi_morning_009
+lofi jazz, morning focus build, airy synth pad layer, light drum pocket, 84 BPM | 77 | lofi_morning_010
+lofi jazz, morning outro warmth, seamless resolution, soft bass fade, 83 BPM | 77 | lofi_morning_011
+lofi jazz, morning outro warmth, gentle chord echo, minimal texture, 84 BPM | 77 | lofi_morning_012
 
-lofi boom bap, 90s underground vibe, dusty vinyl crackle, chopped jazz sample, punchy kick and snare, 88 BPM | 90 | lofi_boomnap_001
-lofi boom bap, 90s underground vibe, filtered piano loop, laid back drum swing, 88 BPM | 90 | lofi_boomnap_002
-lofi boom bap, raw drum break texture, warm sub bass, subtle horn stab, 88 BPM | 90 | lofi_boomnap_003
-lofi boom bap, crate digger mood, gritty snare snap, mellow bass groove, 90 BPM | 90 | lofi_boomnap_004
-lofi boom bap, classic head nod rhythm, chopped soul sample, vinyl hiss layer, 90 BPM | 90 | lofi_boomnap_005
-lofi boom bap, 90s cypher atmosphere, dusty Rhodes chords, steady groove, 90 BPM | 90 | lofi_boomnap_006
-lofi boom bap, tape saturated drums, short melodic loop, subtle scratch texture, 92 BPM | 90 | lofi_boomnap_007
-lofi boom bap, late 90s instrumental style, muted trumpet sample, warm bassline, 92 BPM | 90 | lofi_boomnap_008
-lofi boom bap, underground basement vibe, hard kick pattern, soft piano riff, 88 BPM | 90 | lofi_boomnap_009
-lofi boom bap, golden era influence, layered drum break, mellow chord stab, 90 BPM | 90 | lofi_boomnap_010
-lofi boom bap, nostalgic street feel, filtered intro, steady drum swing, 88 BPM | 90 | lofi_boomnap_011
-lofi boom bap, dusty outro groove, minimal sample loop, smooth fade texture, 88 BPM | 90 | lofi_boomnap_012
+# Lofi Set 2 – Deep Work Session (concentrated, minimal, focused)
+lofi jazz, deep work atmosphere, minimal piano phrase, steady bass pulse, soft snare, 80 BPM | 77 | lofi_deepwork_001
+lofi jazz, deep work atmosphere, sparse chord voicing, warm sub bass, 80 BPM | 77 | lofi_deepwork_002
+lofi jazz, concentrated focus mood, slow melodic motif, brushed drums, 79 BPM | 77 | lofi_deepwork_003
+lofi jazz, concentrated focus mood, muted piano keys, deep bass groove, 80 BPM | 77 | lofi_deepwork_004
+lofi jazz, quiet productivity vibe, airy pad texture, minimal drum hit, 78 BPM | 77 | lofi_deepwork_005
+lofi jazz, quiet productivity vibe, soft chord progression, steady rhythm, 79 BPM | 77 | lofi_deepwork_006
+lofi jazz, flow state music, evolving piano harmony, relaxed pocket, 80 BPM | 77 | lofi_deepwork_007
+lofi jazz, flow state music, warm upright bass walk, sparse melody, 79 BPM | 77 | lofi_deepwork_008
+lofi jazz, deep focus sustain, subtle harmonic shift, soft percussion, 78 BPM | 77 | lofi_deepwork_009
+lofi jazz, deep focus sustain, filtered piano tone, steady groove, 79 BPM | 77 | lofi_deepwork_010
+lofi jazz, deep work resolution, gentle outro phrase, bass fade, 78 BPM | 77 | lofi_deepwork_011
+lofi jazz, deep work resolution, seamless loop close, minimal texture, 79 BPM | 77 | lofi_deepwork_012
 
-# Lofi Set 12 – 90s Jazzhop Lounge (smooth, smoky, instrumental hip hop)
+# Lofi Set 3 – Rainy Window Study (melancholic, introspective, soft)
+lofi jazz, rainy window study mood, soft piano melody, distant rain texture, 77 BPM | 77 | lofi_rainstudy_001
+lofi jazz, rainy window study mood, warm chord voicing, brushed snare, 77 BPM | 77 | lofi_rainstudy_002
+lofi jazz, grey afternoon light, mellow trumpet phrase, deep bass pulse, 76 BPM | 77 | lofi_rainstudy_003
+lofi jazz, grey afternoon light, emotional piano variation, vinyl crackle, 77 BPM | 77 | lofi_rainstudy_004
+lofi jazz, introspective study vibe, slow harmonic movement, soft kick, 76 BPM | 77 | lofi_rainstudy_005
+lofi jazz, introspective study vibe, airy reverb piano, minimal groove, 77 BPM | 77 | lofi_rainstudy_006
+lofi jazz, rain on glass texture, muted trumpet echo, steady bass, 76 BPM | 77 | lofi_rainstudy_007
+lofi jazz, rain on glass texture, soft chord resolution, brushed drums, 77 BPM | 77 | lofi_rainstudy_008
+lofi jazz, rainy afternoon fade, gentle melodic exhale, slow outro, 75 BPM | 77 | lofi_rainstudy_009
+lofi jazz, rainy afternoon fade, warm piano close, subtle bass, 76 BPM | 77 | lofi_rainstudy_010
+lofi jazz, rainy afternoon fade, seamless loop resolution, soft texture, 75 BPM | 77 | lofi_rainstudy_011
+lofi jazz, rainy afternoon fade, final chord breath, minimal drum, 76 BPM | 77 | lofi_rainstudy_012
 
-lofi jazzhop, smoky lounge atmosphere, upright bass groove, brushed drums, soft sax riff, 85 BPM | 90 | lofi_jazzhop_001
-lofi jazzhop, late night café vibe, Rhodes piano chords, light vinyl texture, 85 BPM | 90 | lofi_jazzhop_002
-lofi jazzhop, mellow trumpet lead, steady boom bap drums, warm ambience, 86 BPM | 90 | lofi_jazzhop_003
-lofi jazzhop, chilled cocktail bar mood, soft ride cymbal, deep bass pulse, 84 BPM | 90 | lofi_jazzhop_004
-lofi jazzhop, smooth improvisation feel, subtle piano variations, relaxed groove, 86 BPM | 90 | lofi_jazzhop_005
-lofi jazzhop, dim lights atmosphere, brushed snare pattern, evolving chords, 85 BPM | 90 | lofi_jazzhop_006
-lofi jazzhop, vinyl sampled harmony, mellow bassline, clean drum pocket, 87 BPM | 90 | lofi_jazzhop_007
-lofi jazzhop, midnight lounge session, airy sax texture, soft tape hiss, 84 BPM | 90 | lofi_jazzhop_008
-lofi jazzhop, warm analog tone, steady head nod rhythm, layered piano, 86 BPM | 90 | lofi_jazzhop_009
-lofi jazzhop, chilled instrumental groove, light harmonic shift, 85 BPM | 90 | lofi_jazzhop_010
-lofi jazzhop, relaxed urban café ambience, soft intro build, brushed drums, 84 BPM | 90 | lofi_jazzhop_011
-lofi jazzhop, smooth outro resolution, subtle melodic echo, seamless fade, 85 BPM | 90 | lofi_jazzhop_012
-
-# Lofi Set 13 – 90s R&B Chill Hop (neo-soul inspired, warm, emotional)
-
-lofi R&B chill hop, 90s neo soul vibe, soft electric piano, deep bass groove, gentle rimshot, 82 BPM | 90 | lofi_rnb_001
-lofi R&B chill hop, warm chord progression, subtle vocal chop texture, mellow drums, 82 BPM | 90 | lofi_rnb_002
-lofi R&B chill hop, smooth synth pad, laid back swing rhythm, 83 BPM | 90 | lofi_rnb_003
-lofi R&B chill hop, nostalgic love song mood, filtered intro, warm bassline, 80 BPM | 90 | lofi_rnb_004
-lofi R&B chill hop, late night soul ambience, airy harmony stack, steady groove, 81 BPM | 90 | lofi_rnb_005
-lofi R&B chill hop, tape saturated texture, soft clap, gentle piano motif, 82 BPM | 90 | lofi_rnb_006
-lofi R&B chill hop, mellow heartbreak atmosphere, subtle melodic variation, 80 BPM | 90 | lofi_rnb_007
-lofi R&B chill hop, 90s slow jam instrumental feel, smooth chord stabs, deep sub bass, 79 BPM | 90 | lofi_rnb_008
-lofi R&B chill hop, dreamy harmony layer, relaxed head nod drums, 81 BPM | 90 | lofi_rnb_009
-lofi R&B chill hop, intimate bedroom studio vibe, soft percussive taps, 80 BPM | 90 | lofi_rnb_010
-lofi R&B chill hop, nostalgic fade in intro, steady warm rhythm, 82 BPM | 90 | lofi_rnb_011
-lofi R&B chill hop, emotional outro tone, smooth loop resolution, 80 BPM | 90 | lofi_rnb_012
-
-# Lofi Set 14 – 90s Trip Hop & Chillwave Blend (moody, cinematic, textured)
-
-lofi trip hop, 90s cinematic mood, deep bass pulse, dark pad layer, slow breakbeat, 78 BPM | 90 | lofi_triphop_001
-lofi trip hop, atmospheric vinyl texture, distant piano echo, steady groove, 78 BPM | 90 | lofi_triphop_002
-lofi trip hop, moody chord progression, soft snare snap, subtle tape hiss, 76 BPM | 90 | lofi_triphop_003
-lofi trip hop, downtempo chillwave blend, airy synth swell, minimal drums, 75 BPM | 90 | lofi_triphop_004
-lofi trip hop, urban night ambience, filtered bassline, layered pads, 77 BPM | 90 | lofi_triphop_005
-lofi trip hop, 90s downtempo lounge vibe, textured percussion, evolving harmony, 78 BPM | 90 | lofi_triphop_006
-lofi trip hop, dark jazzy undertone, steady drum loop, warm analog saturation, 76 BPM | 90 | lofi_triphop_007
-lofi trip hop, hazy cinematic intro, subtle melodic pulse, 75 BPM | 90 | lofi_triphop_008
-lofi trip hop, late night downtempo groove, deep ambient pad, 77 BPM | 90 | lofi_triphop_009
-lofi trip hop, nostalgic tape warble effect, slow rhythmic sway, 76 BPM | 90 | lofi_triphop_010
-lofi trip hop, moody outro resolution, gentle harmonic fade, 75 BPM | 90 | lofi_triphop_011
-lofi trip hop, seamless ambient transition feel, textured vinyl layer, 76 BPM | 90 | lofi_triphop_012
+# Lofi Set 4 – Late Night Deadline (tired but pushing, coffee worn off)
+lofi jazz, late night deadline mood, dark minor piano, slow drum groove, 74 BPM | 77 | lofi_deadline_001
+lofi jazz, late night deadline mood, deep sub bass, sparse chord stab, 74 BPM | 77 | lofi_deadline_002
+lofi jazz, tired focus atmosphere, filtered piano phrase, steady pulse, 73 BPM | 77 | lofi_deadline_003
+lofi jazz, tired focus atmosphere, warm bass walk, soft snare tap, 74 BPM | 77 | lofi_deadline_004
+lofi jazz, 2am still working, slow chord drift, minimal percussion, 72 BPM | 77 | lofi_deadline_005
+lofi jazz, 2am still working, muted horn texture, deep groove, 73 BPM | 77 | lofi_deadline_006
+lofi jazz, end of night push, emotional piano motif, slow bass pulse, 74 BPM | 77 | lofi_deadline_007
+lofi jazz, end of night push, dark harmonic layer, brushed drum fade, 73 BPM | 77 | lofi_deadline_008
+lofi jazz, pre-dawn resolution, gentle chord release, soft outro, 72 BPM | 77 | lofi_deadline_009
+lofi jazz, pre-dawn resolution, warm piano fade, minimal texture, 73 BPM | 77 | lofi_deadline_010
+lofi jazz, pre-dawn resolution, seamless dark close, subtle bass, 72 BPM | 77 | lofi_deadline_011
+lofi jazz, pre-dawn resolution, final harmonic breath, quiet loop end, 73 BPM | 77 | lofi_deadline_012
