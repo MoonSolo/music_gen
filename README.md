@@ -639,3 +639,19 @@ rooftop lofi, sunset lofi, golden hour lofi, lofi chill,
 background music, instrumental hip hop, late night lofi,
 aesthetic lofi, sad lofi, moody lofi, lofi vibes,
 ambient lofi, cozy lofi, relaxing music, lofi 2025
+
+
+
+
+
+
+
+# Run all jobs
+python3 scripts/queue.py --jobs queue.txt --device cuda
+
+# Resume from job 3 (1 and 2 already done)
+python3 scripts/queue.py --jobs queue.txt --device cuda --start_from 3
+
+# Generate only, no assembly
+python3 scripts/queue.py --jobs queue.txt --device cuda --skip_assemble
+

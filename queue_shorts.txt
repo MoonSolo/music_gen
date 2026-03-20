@@ -1,0 +1,6 @@
+# prompts_file | video_name | animation | model
+prompts/lofi_rainy_commute.txt  | lofi_commute  | assets/rain_window.mp4  | small
+prompts/lofi_midnight_snack.txt | lofi_midnight | assets/kitchen_night.mp4 | small
+prompts/lofi_sunday_morning.txt | lofi_sunday   | assets/morning_light.mp4 | small
+prompts/lofi_golden_hour.txt    | lofi_golden   | assets/golden_window.mp4 | small
+prompts/lofi_power_nap.txt      | lofi_nap      | assets/cozy_room.mp4     | small

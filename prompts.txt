@@ -1,55 +1,48 @@
-# Lofi Set 1 – Morning Coffee Focus (warm start, gentle energy)
-lofi jazz, morning coffee atmosphere, warm upright bass, soft brushed drums, gentle piano, 84 BPM | 77 | lofi_morning_001
-lofi jazz, morning coffee atmosphere, mellow chord voicing, light ride cymbal, 84 BPM | 77 | lofi_morning_002
-lofi jazz, early morning light, airy piano improvisation, steady bass walk, 85 BPM | 77 | lofi_morning_003
-lofi jazz, early morning light, soft horn phrase, warm vinyl texture, 84 BPM | 77 | lofi_morning_004
-lofi jazz, first cup of coffee mood, Rhodes piano loop, brushed snare, 83 BPM | 77 | lofi_morning_005
-lofi jazz, first cup of coffee mood, upright bass groove, subtle chord stab, 84 BPM | 77 | lofi_morning_006
-lofi jazz, slow morning settle, gentle piano resolution, minimal percussion, 83 BPM | 77 | lofi_morning_007
-lofi jazz, slow morning settle, warm harmonic drift, soft kick pattern, 84 BPM | 77 | lofi_morning_008
-lofi jazz, morning focus build, layered piano voicing, steady groove, 85 BPM | 77 | lofi_morning_009
-lofi jazz, morning focus build, airy synth pad layer, light drum pocket, 84 BPM | 77 | lofi_morning_010
-lofi jazz, morning outro warmth, seamless resolution, soft bass fade, 83 BPM | 77 | lofi_morning_011
-lofi jazz, morning outro warmth, gentle chord echo, minimal texture, 84 BPM | 77 | lofi_morning_012
+# Lofi Set 1 – Respawn Screen (post-game chill, controller down, lights low)
+lofi hip hop, post game chill atmosphere, soft synth pad, warm bass groove, mellow kick, 83 BPM | 66 | lofi_respawn_001
+lofi hip hop, controller down mood, dusty piano loop, light vinyl crackle, 83 BPM | 66 | lofi_respawn_002
+lofi hip hop, loading screen ambience, filtered chord stab, steady drum pocket, 84 BPM | 66 | lofi_respawn_003
+lofi hip hop, respawn waiting mood, airy melody drift, soft snare brush, 83 BPM | 66 | lofi_respawn_004
+lofi hip hop, late night gaming wind down, warm resolution chord, minimal groove, 82 BPM | 66 | lofi_respawn_005
 
-# Lofi Set 2 – Deep Work Session (concentrated, minimal, focused)
-lofi jazz, deep work atmosphere, minimal piano phrase, steady bass pulse, soft snare, 80 BPM | 77 | lofi_deepwork_001
-lofi jazz, deep work atmosphere, sparse chord voicing, warm sub bass, 80 BPM | 77 | lofi_deepwork_002
-lofi jazz, concentrated focus mood, slow melodic motif, brushed drums, 79 BPM | 77 | lofi_deepwork_003
-lofi jazz, concentrated focus mood, muted piano keys, deep bass groove, 80 BPM | 77 | lofi_deepwork_004
-lofi jazz, quiet productivity vibe, airy pad texture, minimal drum hit, 78 BPM | 77 | lofi_deepwork_005
-lofi jazz, quiet productivity vibe, soft chord progression, steady rhythm, 79 BPM | 77 | lofi_deepwork_006
-lofi jazz, flow state music, evolving piano harmony, relaxed pocket, 80 BPM | 77 | lofi_deepwork_007
-lofi jazz, flow state music, warm upright bass walk, sparse melody, 79 BPM | 77 | lofi_deepwork_008
-lofi jazz, deep focus sustain, subtle harmonic shift, soft percussion, 78 BPM | 77 | lofi_deepwork_009
-lofi jazz, deep focus sustain, filtered piano tone, steady groove, 79 BPM | 77 | lofi_deepwork_010
-lofi jazz, deep work resolution, gentle outro phrase, bass fade, 78 BPM | 77 | lofi_deepwork_011
-lofi jazz, deep work resolution, seamless loop close, minimal texture, 79 BPM | 77 | lofi_deepwork_012
+# Lofi Set 2 – Open World Drift (exploration, vast landscape, no objective)
+lofi hip hop, open world exploration mood, vast synth swell, soft kick, distant melody, 80 BPM | 66 | lofi_openworld_001
+lofi hip hop, open world exploration mood, warm pad layer, upright bass walk, 80 BPM | 66 | lofi_openworld_002
+lofi hip hop, no objective just roaming, airy chord progression, light percussion, 79 BPM | 66 | lofi_openworld_003
+lofi hip hop, vast landscape atmosphere, slow melodic phrase, deep bass pulse, 80 BPM | 66 | lofi_openworld_004
+lofi hip hop, sunset exploration vibe, golden synth texture, relaxed groove, 79 BPM | 66 | lofi_openworld_005
 
-# Lofi Set 3 – Rainy Window Study (melancholic, introspective, soft)
-lofi jazz, rainy window study mood, soft piano melody, distant rain texture, 77 BPM | 77 | lofi_rainstudy_001
-lofi jazz, rainy window study mood, warm chord voicing, brushed snare, 77 BPM | 77 | lofi_rainstudy_002
-lofi jazz, grey afternoon light, mellow trumpet phrase, deep bass pulse, 76 BPM | 77 | lofi_rainstudy_003
-lofi jazz, grey afternoon light, emotional piano variation, vinyl crackle, 77 BPM | 77 | lofi_rainstudy_004
-lofi jazz, introspective study vibe, slow harmonic movement, soft kick, 76 BPM | 77 | lofi_rainstudy_005
-lofi jazz, introspective study vibe, airy reverb piano, minimal groove, 77 BPM | 77 | lofi_rainstudy_006
-lofi jazz, rain on glass texture, muted trumpet echo, steady bass, 76 BPM | 77 | lofi_rainstudy_007
-lofi jazz, rain on glass texture, soft chord resolution, brushed drums, 77 BPM | 77 | lofi_rainstudy_008
-lofi jazz, rainy afternoon fade, gentle melodic exhale, slow outro, 75 BPM | 77 | lofi_rainstudy_009
-lofi jazz, rainy afternoon fade, warm piano close, subtle bass, 76 BPM | 77 | lofi_rainstudy_010
-lofi jazz, rainy afternoon fade, seamless loop resolution, soft texture, 75 BPM | 77 | lofi_rainstudy_011
-lofi jazz, rainy afternoon fade, final chord breath, minimal drum, 76 BPM | 77 | lofi_rainstudy_012
+# Lofi Set 3 – LAN Party Nostalgia (2000s bedroom setup, CRT glow, midnight)
+lofi hip hop, 2000s bedroom gaming nostalgia, warm Rhodes piano, dusty drums, 86 BPM | 66 | lofi_lan_001
+lofi hip hop, CRT monitor glow mood, chopped sample texture, punchy kick, 86 BPM | 66 | lofi_lan_002
+lofi hip hop, midnight LAN party atmosphere, vinyl crackle layer, mellow bass, 87 BPM | 66 | lofi_lan_003
+lofi hip hop, old school gaming session, filtered piano stab, steady swing, 86 BPM | 66 | lofi_lan_004
+lofi hip hop, 2000s nostalgia fade, warm chord resolution, soft drum close, 85 BPM | 66 | lofi_lan_005
 
-# Lofi Set 4 – Late Night Deadline (tired but pushing, coffee worn off)
-lofi jazz, late night deadline mood, dark minor piano, slow drum groove, 74 BPM | 77 | lofi_deadline_001
-lofi jazz, late night deadline mood, deep sub bass, sparse chord stab, 74 BPM | 77 | lofi_deadline_002
-lofi jazz, tired focus atmosphere, filtered piano phrase, steady pulse, 73 BPM | 77 | lofi_deadline_003
-lofi jazz, tired focus atmosphere, warm bass walk, soft snare tap, 74 BPM | 77 | lofi_deadline_004
-lofi jazz, 2am still working, slow chord drift, minimal percussion, 72 BPM | 77 | lofi_deadline_005
-lofi jazz, 2am still working, muted horn texture, deep groove, 73 BPM | 77 | lofi_deadline_006
-lofi jazz, end of night push, emotional piano motif, slow bass pulse, 74 BPM | 77 | lofi_deadline_007
-lofi jazz, end of night push, dark harmonic layer, brushed drum fade, 73 BPM | 77 | lofi_deadline_008
-lofi jazz, pre-dawn resolution, gentle chord release, soft outro, 72 BPM | 77 | lofi_deadline_009
-lofi jazz, pre-dawn resolution, warm piano fade, minimal texture, 73 BPM | 77 | lofi_deadline_010
-lofi jazz, pre-dawn resolution, seamless dark close, subtle bass, 72 BPM | 77 | lofi_deadline_011
-lofi jazz, pre-dawn resolution, final harmonic breath, quiet loop end, 73 BPM | 77 | lofi_deadline_012
+# Lofi Set 4 – Speedrun Focus (locked in, no distractions, pure concentration)
+lofi hip hop, speedrun focus mode, tight drum groove, minimal chord loop, 88 BPM | 66 | lofi_speedrun_001
+lofi hip hop, speedrun focus mode, punchy bass hit, filtered melody, 88 BPM | 66 | lofi_speedrun_002
+lofi hip hop, locked in concentration, steady rhythmic pulse, sparse piano, 89 BPM | 66 | lofi_speedrun_003
+lofi hip hop, no distraction zone, clean drum pocket, deep sub bass, 88 BPM | 66 | lofi_speedrun_004
+lofi hip hop, focused grind atmosphere, tight groove resolution, warm fade, 87 BPM | 66 | lofi_speedrun_005
+
+# Lofi Set 5 – Inventory Screen (paused, quiet moment, game world frozen)
+lofi hip hop, inventory screen mood, slow piano notes, ambient pad layer, 76 BPM | 66 | lofi_inventory_001
+lofi hip hop, game paused atmosphere, soft chord drift, minimal bass pulse, 76 BPM | 66 | lofi_inventory_002
+lofi hip hop, quiet frozen world mood, distant reverb melody, light brush, 75 BPM | 66 | lofi_inventory_003
+lofi hip hop, still game world texture, warm harmonic swell, sparse groove, 76 BPM | 66 | lofi_inventory_004
+lofi hip hop, paused screen resolution, gentle chord close, soft fade, 75 BPM | 66 | lofi_inventory_005
+
+# Lofi Set 6 – Side Quest (off the beaten path, curious, unhurried)
+lofi hip hop, side quest curiosity mood, playful piano motif, soft kick swing, 82 BPM | 66 | lofi_sidequest_001
+lofi hip hop, side quest curiosity mood, warm guitar pluck, steady bass line, 82 BPM | 66 | lofi_sidequest_002
+lofi hip hop, off beaten path atmosphere, light chord stab, brushed snare, 83 BPM | 66 | lofi_sidequest_003
+lofi hip hop, unhurried exploration vibe, airy melody layer, relaxed groove, 82 BPM | 66 | lofi_sidequest_004
+lofi hip hop, side quest sunset close, warm resolution phrase, gentle fade, 81 BPM | 66 | lofi_sidequest_005
+
+# Lofi Set 7 – Game Over Screen (reflective, quiet acceptance, try again energy)
+lofi hip hop, game over reflection mood, slow minor piano, deep bass, soft snare, 74 BPM | 66 | lofi_gameover_001
+lofi hip hop, game over reflection mood, emotional chord phrase, minimal texture, 74 BPM | 66 | lofi_gameover_002
+lofi hip hop, quiet acceptance atmosphere, warm pad swell, sparse drum hit, 73 BPM | 66 | lofi_gameover_003
+lofi hip hop, try again energy build, gentle melodic rise, steady pulse, 74 BPM | 66 | lofi_gameover_004
+lofi hip hop, game over resolution, final warm chord, soft outro fade, 73 BPM | 66 | lofi_gameover_005

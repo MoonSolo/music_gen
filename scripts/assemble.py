@@ -92,29 +92,55 @@ def assemble_video(audio_path, animation_path, out_path, resolution, fps, durati
     """
     width, height = resolution.split("x")
 
-    cmd = [
-        "ffmpeg", "-y",
-        "-stream_loop", "-1",
-        "-i", str(animation_path),
-        "-i", str(audio_path),
-        "-t", str(duration),
-        "-vf", (
-            f"scale={width}:{height}:force_original_aspect_ratio=decrease,"
-            f"pad={width}:{height}:(ow-iw)/2:(oh-ih)/2:black,"
-            f"fps={fps}"
-            f"fade=t=in:st=0:d=3"
-        ),
-        "-af", "afade=t=in:st=0:d=3",
-        "-map", "0:v:0",
-        "-map", "1:a:0",
-        "-c:v", "libx264",
-        "-preset", "ultrafast", # veryslow → slower → slow → medium → fast → faster → veryfast → superfast → ultrafast
-        "-crf", "28",
-        "-pix_fmt", "yuv420p",
-        "-c:a", "aac",
-        "-b:a", "192k",
-        str(out_path)
-    ]
+    vf_chain = ",".join([
+        f"scale={width}:{height}:force_original_aspect_ratio=decrease",
+        f"pad={width}:{height}:(ow-iw)/2:(oh-ih)/2:black",
+        f"fps={fps}",
+        "fade=t=in:st=0:d=3"
+    ])
+    # Detect if input is a static image or video
+    animation_suffix = animation_path.suffix.lower()
+    is_image = animation_suffix in [".png", ".jpg", ".jpeg", ".webp"]
+
+    if is_image:
+        cmd = [
+            "ffmpeg", "-y",
+            "-loop", "1",                    # loop the static image
+            "-i", str(animation_path),       # image input
+            "-i", str(audio_path),           # audio input
+            "-t", str(duration),
+            "-vf", vf_chain,
+            "-af", f"afade=t=in:st=0:d=3",
+            "-map", "0:v:0",
+            "-map", "1:a:0",
+            "-c:v", "libx264",
+            "-preset", "ultrafast",
+            "-crf", "28",
+            "-pix_fmt", "yuv420p",
+            "-c:a", "aac",
+            "-b:a", "192k",
+            "-tune", "stillimage",           # ffmpeg optimization for static input
+            str(out_path)
+        ]
+    else:
+        cmd = [
+            "ffmpeg", "-y",
+            "-stream_loop", "-1",
+            "-i", str(animation_path),
+            "-i", str(audio_path),
+            "-t", str(duration),
+            "-vf", vf_chain,
+            "-af", f"afade=t=in:st=0:d=3",
+            "-map", "0:v:0",
+            "-map", "1:a:0",
+            "-c:v", "libx264",
+            "-preset", "ultrafast",
+            "-crf", "28",
+            "-pix_fmt", "yuv420p",
+            "-c:a", "aac",
+            "-b:a", "192k",
+            str(out_path)
+        ]
 
     print(f"   Running ffmpeg...")
 
@@ -146,7 +172,7 @@ def main():
         print(f"✗ Animation file not found: {animation_path}")
         sys.exit(1)
 
-    if animation_path.suffix.lower() not in [".mp4", ".gif", ".webm", ".mov"]:
+    if animation_path.suffix.lower() not in [".mp4", ".gif", ".webm", ".mov", ".png", ".jpg", ".jpeg", ".webp"]:
         print(f"✗ Unsupported animation format: {animation_path.suffix}")
         print(f"  Supported: .mp4, .gif, .webm, .mov")
         sys.exit(1)
