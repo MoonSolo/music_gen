@@ -3,15 +3,13 @@ generate_thumbnail.py — Generate YouTube thumbnails via ComfyUI API
 Requires ComfyUI running: cd ~/ComfyUI && source venv/bin/activate && python main.py --listen 127.0.0.1 --port 7860
 
 Usage:
-  python3 scripts/generate_thumbnail.py --video_name lofi_commute --preset rainy_night
-  python3 scripts/generate_thumbnail.py --video_name lofi_commute --prompt "anime girl at desk, rainy window"
-  python3 scripts/generate_thumbnail.py --video_name lofi_commute --preset study_desk --variants 4
-  python3 scripts/generate_thumbnail.py --video_name lofi_vol1 --all_presets
+  python3 scripts/generate_thumbnail.py --video_name lofi_night --preset coding_3am
+  python3 scripts/generate_thumbnail.py --video_name lofi_night --preset coding_3am --variants 3
+  python3 scripts/generate_thumbnail.py --video_name lofi_night --prompt "anime girl at window, neon city"
+  python3 scripts/generate_thumbnail.py --video_name lofi_night --all_presets
 
-Presets: rainy_night, study_desk, rooftop_sunset, midnight_cafe,
-         gaming_room, dark_3am, morning_light, open_world
-
-Output: thumbnails/<video_name>/thumbnail_<preset>_v1.png ...
+Presets: coding_3am, insomnia_1am, night_drive, overthinking_2am,
+         rooftop_night, convenience_store, window_rain, desk_glow
 """
 
 import argparse
@@ -32,58 +30,67 @@ THUMB_WIDTH  = 1280
 THUMB_HEIGHT = 720
 
 STYLE_SUFFIX = (
-    "anime style, Studio Ghibli inspired, lofi aesthetic, "
-    "soft lighting, warm color palette, highly detailed, "
-    "cinematic composition, cozy atmosphere, 4k, masterpiece, "
-    "best quality, illustration"
+    "anime style, Studio Ghibli inspired, vaporwave aesthetic, "
+    "cyberpunk night, neon lighting, soft glow, highly detailed, "
+    "cinematic composition, late night atmosphere, 4k, masterpiece, "
+    "best quality, illustration, lofi aesthetic"
 )
 
 NEGATIVE_PROMPT = (
     "nsfw, realistic, photograph, 3d render, ugly, deformed, "
     "blurry, low quality, bad anatomy, watermark, signature, "
-    "text, logo, harsh lighting, oversaturated, cartoon, chibi"
+    "text, logo, harsh lighting, oversaturated, cartoon, chibi, "
+    "daytime, bright sunlight, cheerful, busy background"
 )
 
 PRESETS = {
-    "rainy_night": (
-        "anime girl sitting by window at night, rain drops on glass, "
-        "neon signs reflecting in puddles below, warm indoor lamp light, "
-        "city lights blurred in background, cozy bedroom, headphones around neck"
+    "coding_3am": (
+        "anime girl at glowing computer desk, 3am dark bedroom, "
+        "multiple monitors casting blue light, cyberpunk city visible through rain window, "
+        "headphones on, focused expression, neon purple and pink tones, "
+        "vaporwave aesthetic, lonely but cozy atmosphere"
     ),
-    "study_desk": (
-        "anime student at wooden desk, open books and notebook, "
-        "warm desk lamp glowing, pencil in hand, afternoon sunlight through window, "
-        "plants on windowsill, cozy room, focused expression"
+    "insomnia_1am": (
+        "anime girl lying in bed staring at ceiling, 1am digital clock, "
+        "dark room with faint neon light from window, city glow outside, "
+        "melancholic expression, soft purple moonlight, vaporwave color palette, "
+        "barely visible silhouette, introspective mood"
     ),
-    "rooftop_sunset": (
-        "anime character sitting on rooftop ledge, golden sunset sky, "
-        "city skyline below, warm orange and pink light, "
-        "legs dangling over edge, peaceful expression, soft wind"
+    "night_drive": (
+        "anime girl in car passenger seat at night, rain on window, "
+        "neon city lights streaking past, reflections on wet glass, "
+        "soft expression looking outside, cyberpunk cityscape, "
+        "pink and blue neon tones, vaporwave night aesthetic"
     ),
-    "midnight_cafe": (
-        "cozy jazz cafe at night, warm amber lighting, "
-        "small table with coffee cup, rain outside window, "
-        "empty chairs, vintage decor, soft glow, intimate atmosphere"
+    "overthinking_2am": (
+        "anime girl sitting on bedroom floor against bed, 2am, "
+        "knees drawn up, phone screen glow in dark room, "
+        "neon signs visible through window, vaporwave purple haze, "
+        "emotional introspective mood, alone but relatable"
     ),
-    "gaming_room": (
-        "anime teenager in bedroom at night, CRT monitor glowing blue, "
-        "game controller on desk, posters on wall, "
-        "warm lamp in corner, cozy cluttered desk, late night gaming session"
+    "rooftop_night": (
+        "anime girl sitting on rooftop at night, cyberpunk city below, "
+        "neon lights reflecting off wet rooftop surface, "
+        "looking at city skyline, headphones around neck, "
+        "vaporwave pink and purple sky, solitary peaceful mood"
     ),
-    "dark_3am": (
-        "anime character lying in dark bedroom, 3am on digital clock, "
-        "moonlight through curtains, ceiling stare, "
-        "soft blue and purple tones, introspective mood, minimal lighting"
+    "convenience_store": (
+        "anime girl inside convenience store at 3am, alone, "
+        "bright white fluorescent light contrasting dark street outside, "
+        "neon reflections on wet pavement, vaporwave aesthetic, "
+        "soft melancholic expression, urban loneliness, relatable moment"
     ),
-    "morning_light": (
-        "anime character by sunny window, morning coffee steam, "
-        "golden morning light streaming in, houseplants, "
-        "soft white curtains blowing, peaceful sunday morning, warm tones"
+    "window_rain": (
+        "anime girl sitting at window watching rain at night, "
+        "warm indoor light behind her, cold blue neon city outside, "
+        "condensation on glass, soft silhouette, vaporwave color split, "
+        "introspective mood, barely visible face, emotionally resonant"
     ),
-    "open_world": (
-        "anime character standing on hilltop, vast open landscape below, "
-        "golden hour light, adventure mood, distant mountains, "
-        "warm breeze, explorer bag, sense of freedom and scale"
+    "desk_glow": (
+        "anime girl at desk late at night, single lamp glow, "
+        "open notebook and coffee cup, dark room, cyberpunk city outside window, "
+        "neon pink and purple light bleeding in, vaporwave aesthetic, "
+        "tired but persisting expression, relatable late night study mood"
     ),
 }
 
@@ -103,7 +110,10 @@ def parse_args():
     parser.add_argument("--steps",       default=28, type=int)
     parser.add_argument("--cfg",         default=7.0, type=float)
     parser.add_argument("--seed",        default=-1, type=int)
-    parser.add_argument("--checkpoint",  default="Counterfeit-V3.safetensors")
+    parser.add_argument("--checkpoint",  default="Counterfeit-V3.safetensors",
+        help="Main model checkpoint filename")
+    parser.add_argument("--vae",         default="kl-f8-anime2.ckpt",
+        help="VAE filename (default: kl-f8-anime2.vae.pt). Use 'none' to skip.")
     parser.add_argument("--api_url",     default=COMFY_URL)
     return parser.parse_args()
 
@@ -116,53 +126,87 @@ def check_api(api_url):
         return False
 
 
-def build_workflow(prompt, negative, checkpoint, steps, cfg, seed, width, height):
+def build_workflow(prompt, negative, checkpoint, vae, steps, cfg, seed, width, height):
     if seed == -1:
         seed = random.randint(0, 2**32 - 1)
-    return {
-        "prompt": {
-            "1": {
-                "class_type": "CheckpointLoaderSimple",
-                "inputs": {"ckpt_name": checkpoint}
-            },
-            "2": {
-                "class_type": "CLIPTextEncode",
-                "inputs": {"text": prompt, "clip": ["1", 1]}
-            },
-            "3": {
-                "class_type": "CLIPTextEncode",
-                "inputs": {"text": negative, "clip": ["1", 1]}
-            },
-            "4": {
-                "class_type": "EmptyLatentImage",
-                "inputs": {"width": width, "height": height, "batch_size": 1}
-            },
-            "5": {
-                "class_type": "KSampler",
-                "inputs": {
-                    "model":        ["1", 0],
-                    "positive":     ["2", 0],
-                    "negative":     ["3", 0],
-                    "latent_image": ["4", 0],
-                    "seed":         seed,
-                    "steps":        steps,
-                    "cfg":          cfg,
-                    "sampler_name": "dpm_2_ancestral",
-                    "scheduler":    "karras",
-                    "denoise":      1.0
-                }
-            },
-            "6": {
-                "class_type": "VAEDecode",
-                "inputs": {"samples": ["5", 0], "vae": ["1", 2]}
-            },
-            "7": {
-                "class_type": "SaveImage",
-                "inputs": {"images": ["6", 0], "filename_prefix": "thumbnail"}
+
+    use_vae = vae.lower() != "none"
+
+    # Node layout:
+    # 1 = CheckpointLoaderSimple
+    # 2 = VAELoader (optional)
+    # 3 = CLIPTextEncode (positive)
+    # 4 = CLIPTextEncode (negative)
+    # 5 = EmptyLatentImage
+    # 6 = KSampler
+    # 7 = VAEDecode
+    # 8 = SaveImage
+
+    workflow = {
+        "1": {
+            "class_type": "CheckpointLoaderSimple",
+            "inputs": {"ckpt_name": checkpoint}
+        },
+        "3": {
+            "class_type": "CLIPTextEncode",
+            "inputs": {"text": prompt, "clip": ["1", 1]}
+        },
+        "4": {
+            "class_type": "CLIPTextEncode",
+            "inputs": {"text": negative, "clip": ["1", 1]}
+        },
+        "5": {
+            "class_type": "EmptyLatentImage",
+            "inputs": {"width": width, "height": height, "batch_size": 1}
+        },
+        "6": {
+            "class_type": "KSampler",
+            "inputs": {
+                "model":        ["1", 0],
+                "positive":     ["3", 0],
+                "negative":     ["4", 0],
+                "latent_image": ["5", 0],
+                "seed":         seed,
+                "steps":        steps,
+                "cfg":          cfg,
+                "sampler_name": "dpm_2_ancestral",
+                "scheduler":    "karras",
+                "denoise":      1.0
             }
         },
-        "client_id": CLIENT_ID
+        "8": {
+            "class_type": "SaveImage",
+            "inputs": {
+                "images":            ["7", 0],
+                "filename_prefix":   "thumbnail"
+            }
+        }
     }
+
+    if use_vae:
+        # Load external VAE and use it for decoding
+        workflow["2"] = {
+            "class_type": "VAELoader",
+            "inputs": {"vae_name": vae}
+        }
+        workflow["7"] = {
+            "class_type": "VAEDecode",
+            "inputs": {
+                "samples": ["6", 0],
+                "vae":     ["2", 0]   # external VAE
+            }
+        }
+    else:
+        # Use VAE baked into the checkpoint
+        workflow["7"] = {
+            "class_type": "VAEDecode",
+            "inputs": {
+                "samples": ["6", 0],
+                "vae":     ["1", 2]   # checkpoint VAE
+            }
+        }
+
+    return {"prompt": workflow, "client_id": CLIENT_ID}
 
 
 def queue_and_wait(workflow, api_url):
@@ -176,7 +220,6 @@ def queue_and_wait(workflow, api_url):
     while True:
         if time.time() - start > TIMEOUT_SEC:
             raise RuntimeError("Timed out waiting for generation")
-
         r = requests.get(f"{api_url}/history/{prompt_id}", timeout=10)
         if r.status_code == 200:
             history = r.json()
@@ -207,10 +250,13 @@ def main():
     thumb_dir = Path("thumbnails") / args.video_name
     thumb_dir.mkdir(parents=True, exist_ok=True)
 
+    use_vae = args.vae.lower() != "none"
+
     print(f"\n{'='*55}")
     print(f"  Thumbnail Generator (ComfyUI)")
     print(f"  Video      : {args.video_name}")
     print(f"  Checkpoint : {args.checkpoint}")
+    print(f"  VAE        : {args.vae if use_vae else 'built-in (checkpoint)'}")
     print(f"  Steps      : {args.steps}  |  CFG: {args.cfg}")
     print(f"  Resolution : {THUMB_WIDTH}x{THUMB_HEIGHT}")
     print(f"  Output     : {thumb_dir}")
@@ -252,6 +298,7 @@ def main():
                     prompt     = f"{job['prompt']}, {STYLE_SUFFIX}",
                     negative   = NEGATIVE_PROMPT,
                     checkpoint = args.checkpoint,
+                    vae        = args.vae,
                     steps      = args.steps,
                     cfg        = args.cfg,
                     seed       = args.seed,
